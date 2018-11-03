@@ -1,0 +1,6 @@
+C:\ZAmit\Latest CV - Jai Shri Ram\InterviewPreparations\InterviewPreparations\bin\Debug\InterviewPreparations.exe.config
+C:\ZAmit\Latest CV - Jai Shri Ram\InterviewPreparations\InterviewPreparations\bin\Debug\InterviewPreparations.exe
+C:\ZAmit\Latest CV - Jai Shri Ram\InterviewPreparations\InterviewPreparations\bin\Debug\InterviewPreparations.pdb
+C:\ZAmit\Latest CV - Jai Shri Ram\InterviewPreparations\InterviewPreparations\obj\Debug\InterviewPreparations.exe
+C:\ZAmit\Latest CV - Jai Shri Ram\InterviewPreparations\InterviewPreparations\obj\Debug\InterviewPreparations.pdb
+C:\ZAmit\Latest CV - Jai Shri Ram\InterviewPreparations\InterviewPreparations\obj\Debug\InterviewPreparations.csprojResolveAssemblyReference.cache

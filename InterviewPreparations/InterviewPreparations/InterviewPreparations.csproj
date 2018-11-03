@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76A924E4-18DA-4E79-AB09-71F1BFB5BD3F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InterviewPreparations</RootNamespace>
+    <AssemblyName>InterviewPreparations</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArrayQuestions.cs" />
+    <Compile Include="InterviewFeedback.cs" />
+    <Compile Include="Javascript.cs" />
+    <Compile Include="LeetCode\Anagrams\242.ValidAnagram.cs" />
+    <Compile Include="LeetCode\Anagrams\438.FindAllAnagramsString.cs" />
+    <Compile Include="LeetCode\Anagrams\49.GroupAnagrams.cs" />
+    <Compile Include="LeetCode\Anagrams\760.FindAnagramMappingsClass.cs" />
+    <Compile Include="LeetCode\Arrays\136.SingleNumber.cs" />
+    <Compile Include="LeetCode\Arrays\605.CanPlaceFlowersClass.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Find Duplicate\442.FindAllDuplicateNumbers.cs" />
+    <Compile Include="LeetCode\Arrays\Important\69.Sqrt%28x%29.cs" />
+    <Compile Include="LeetCode\Arrays\Important\70.ClimbingStairs.cs" />
+    <Compile Include="LeetCode\Arrays\Important\704.BinarySearch.cs" />
+    <Compile Include="LeetCode\Arrays\Important\277.FindCelebrity.cs" />
+    <Compile Include="LeetCode\Arrays\IntersectionArray\FindCommonThreeSortedArray.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\408.ValidWordAbbrevationClass.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\422.ValidWordSquareClass.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\TwoSumIVBST.cs" />
+    <Compile Include="LeetCode\Arrays\Ugly Number\264.UglyNumberII.cs" />
+    <Compile Include="LeetCode\Arrays\Missing Number\448.FindMissingPositiveNumbers.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Find Duplicate\645.SetMismatch.cs" />
+    <Compile Include="LeetCode\Arrays\Missing Number\MissingNumbeRepatedThreeNumbers.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Remove Duplicate\80.RemoveDuplicatesFromSortedArrayII.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Remove Duplicate\316.RemoveDuplicateCharactersClass.cs" />
+    <Compile Include="LeetCode\Arrays\Important\120.Triangle.cs" />
+    <Compile Include="LeetCode\Arrays\Important\162.FindPeakElementClass.cs" />
+    <Compile Include="LeetCode\Arrays\Important\PlateformRequiredRailwayStation.cs" />
+    <Compile Include="LeetCode\Arrays\Rotate Array\189.RotateArray.cs" />
+    <Compile Include="LeetCode\Arrays\Important\223.RectangleArea.cs" />
+    <Compile Include="LeetCode\Arrays\Important\238.ProductOfArrayExceptSelf.cs" />
+    <Compile Include="LeetCode\Arrays\Important\303.RangeSumQueryImmutable.cs" />
+    <Compile Include="LeetCode\Arrays\Important\34.SearchForARange.cs" />
+    <Compile Include="LeetCode\Arrays\Important\347.TopKFrequentElements.cs" />
+    <Compile Include="LeetCode\Arrays\Important\35.SearchInsertPositionArray.cs" />
+    <Compile Include="LeetCode\Arrays\MaximumConsecutiveOnesArray\485.MaxConsecutiveOnes.cs" />
+    <Compile Include="LeetCode\Arrays\Important\532.FindKPairsArray.cs" />
+    <Compile Include="LeetCode\Arrays\Important\628.MaximumProductThreeNumbers.cs" />
+    <Compile Include="LeetCode\Arrays\Important\66.PlusOne.cs" />
+    <Compile Include="LeetCode\Arrays\Important\697.DegreeOfAnArray.cs" />
+    <Compile Include="LeetCode\Arrays\Important\724.FindPivotIndexClass.cs" />
+    <Compile Include="LeetCode\Arrays\Important\75.SortColors012.cs" />
+    <Compile Include="LeetCode\Arrays\Sort\88.MergeSortTwoArray.cs" />
+    <Compile Include="LeetCode\Arrays\Important\ArrayArrangment.cs" />
+    <Compile Include="LeetCode\Arrays\Important\ArrayIndexElementEquality.cs" />
+    <Compile Include="LeetCode\Arrays\Important\AwardBudgetCutsClass.cs" />
+    <Compile Include="LeetCode\Arrays\Important\BasicRegex.cs" />
+    <Compile Include="LeetCode\Arrays\Important\DecryptMessage.cs" />
+    <Compile Include="LeetCode\Arrays\Important\DroneFlightPlannerClass.cs" />
+    <Compile Include="LeetCode\Arrays\Important\157.ReadNCharsGivenRead4.cs" />
+    <Compile Include="LeetCode\Arrays\Important\31.NextPermutation.cs" />
+    <Compile Include="LeetCode\Arrays\Important\274.H-Index.cs" />
+    <Compile Include="LeetCode\Arrays\MissingRanges\163.MissingRanges.cs" />
+    <Compile Include="LeetCode\Arrays\MaximumConsecutiveOnesArray\487.MaxConsecutiveOnesClassII.cs" />
+    <Compile Include="LeetCode\Arrays\Important\QueueRecnstructionByHeight.cs" />
+    <Compile Include="LeetCode\Arrays\Important\396.RotateFunction.cs" />
+    <Compile Include="LeetCode\Arrays\Important\SearchInIncreasingDecresingArray.cs" />
+    <Compile Include="LeetCode\Arrays\Important\360.SortedTrasnformedArrayClass.cs" />
+    <Compile Include="LeetCode\Arrays\Sort\280.WiggleSort.cs" />
+    <Compile Include="LeetCode\Arrays\MissingRanges\228.SummaryRanges.cs" />
+    <Compile Include="LeetCode\Arrays\Important\640.SolveTheEquationClass.cs" />
+    <Compile Include="LeetCode\Arrays\Sort\280.1WaveSort.cs" />
+    <Compile Include="LeetCode\Arrays\Intervals\252.MeetingRoom.cs" />
+    <Compile Include="LeetCode\Arrays\Intervals\57.InsertIntervals.cs" />
+    <Compile Include="LeetCode\Arrays\Intervals\253.MeetingRoomII.cs" />
+    <Compile Include="LeetCode\Arrays\Majority Element\169.MajorityElement.cs" />
+    <Compile Include="LeetCode\Arrays\LargestNumber\179.LargestNumber.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Remove Duplicate\217.ContainsDuplicate.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Remove Duplicate\219.ContainsDuplicateII.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Remove Duplicate\26.RemoveDuplicatesfromSortedArray.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Remove Duplicate\27.RemoveElement.cs" />
+    <Compile Include="LeetCode\Arrays\MoveZeros\283.MoveZeroes.cs" />
+    <Compile Include="LeetCode\Arrays\Duplicate\Find Duplicate\287.FindTheDuplicateNumber.cs" />
+    <Compile Include="LeetCode\Arrays\IntersectionArray\349.IntersectionOfTwoArrays.cs" />
+    <Compile Include="LeetCode\Arrays\IntersectionArray\350.IntersectionTwoArraysII.cs" />
+    <Compile Include="LeetCode\Arrays\4.MedianofTwoSortedArrays.cs" />
+    <Compile Include="LeetCode\Arrays\MinCostClimbingStairs.cs" />
+    <Compile Include="LeetCode\Arrays\453.MinimumMovesEqualArray.cs" />
+    <Compile Include="LeetCode\Arrays\Missing Number\41.FirstMissingPositiveClass.cs" />
+    <Compile Include="LeetCode\Arrays\665.NonDecreasingArrayClass.cs" />
+    <Compile Include="LeetCode\Arrays\LargestNumber\747.LargestNumberAtLeastTwiceOfOthers.cs" />
+    <Compile Include="LeetCode\Arrays\400.NthDigit.cs" />
+    <Compile Include="LeetCode\Arrays\LargestNumber\215.KthLargestElementArray.cs" />
+    <Compile Include="LeetCode\Arrays\Important\84.LargestRectangleAreaHistogram.cs" />
+    <Compile Include="LeetCode\Arrays\581.ShortestUnSortedContinousSubArray.cs" />
+    <Compile Include="LeetCode\Arrays\String\EditDistance.cs" />
+    <Compile Include="LeetCode\Backtrack\254.FactorCombinations.cs" />
+    <Compile Include="LeetCode\Design\BrainTeasers\BrainTeasers.cs" />
+    <Compile Include="LeetCode\Design\211.DesignAddAndSearchWords.cs" />
+    <Compile Include="LeetCode\Design\DesignFlightBaggageClaim\ArrivalMonitors.cs" />
+    <Compile Include="LeetCode\Design\DesignFlightBaggageClaim\BaggageHandler.cs" />
+    <Compile Include="LeetCode\Design\DesignFlightBaggageClaim\BaggageInfo.cs" />
+    <Compile Include="LeetCode\Design\DesignFlightBaggageClaim\ClientClass.cs" />
+    <Compile Include="LeetCode\Design\DesignTraditionalSnakeGame.cs" />
+    <Compile Include="LeetCode\Design\StackQueues\SortStackUsingTempStack.cs" />
+    <Compile Include="LeetCode\Arrays\String\Shortest Distance Between Words\243.ShortestWordDistanceStrings.cs" />
+    <Compile Include="LeetCode\Arrays\String\Shortest Distance Between Words\244.ShortestWordDistanceStringsII.cs" />
+    <Compile Include="LeetCode\Arrays\String\Shortest Distance Between Words\245.ShortestWordDistanceStringsIII.cs" />
+    <Compile Include="LeetCode\Arrays\String\500.WordExistsKeyBoardRow.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\128.LargestSubsetsInArray.cs" />
+    <Compile Include="LeetCode\Arrays\Majority Element\229.MajorityElementII.cs" />
+    <Compile Include="LeetCode\Arrays\MoveZeros\283.1MoveZeroRemoveDuplicates.cs" />
+    <Compile Include="LeetCode\Arrays\Rotate Array\153.FindMinimumRotatedSortedArray.cs" />
+    <Compile Include="LeetCode\Arrays\Rotate Array\154.FindMinimumRotatedSortedArrayII.cs" />
+    <Compile Include="LeetCode\Arrays\Rotate Array\33.SearchInRotatedSortedArray.cs" />
+    <Compile Include="LeetCode\Arrays\Rotate Array\81.SearchInRotatedSortedArrayII.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\209.MinimumSizeSubarraySum.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\239.SlidingWindowMaximumArray.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\325.MaximumSizeSubarraySum.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\523.ContinuousSubArraySum.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\525.ContigousSubArrayClass.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\560.CountSubArraySumEqualK.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\713.SubArrayProductLessThanKClass.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\CalculateMaximumSubArray\152.MaximumProductSubarrayClass.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\CalculateMaximumSubArray\53.MaximumSubarray.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\CalculateMaximumSubArray\643.MaximumAverageSubArrayClassWindowK.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\CalculateMaximumSubArray\MaximumAverageSubArrayII.cs" />
+    <Compile Include="LeetCode\Arrays\SubArray\CalculateMaximumSubArray\MaximumSumSubArrayClassWindowK.cs" />
+    <Compile Include="LeetCode\Arrays\LargestNumber\414.ThirdMaximumNumberClass.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\259.3SumSmaller.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\18.4Sum.cs" />
+    <Compile Include="LeetCode\Backtrack\494.TargetSum.cs" />
+    <Compile Include="LeetCode\Backtrack\17.LetterCombinationPhoneNumber.cs" />
+    <Compile Include="LeetCode\Basic Calculator\224.BasicCalculatorI.cs" />
+    <Compile Include="LeetCode\Basic Calculator\227.BasicCalculatorII.cs" />
+    <Compile Include="LeetCode\Binary\461.HammingDistance.cs" />
+    <Compile Include="LeetCode\Coin Problems\441.ArrangeCoins.cs" />
+    <Compile Include="LeetCode\Coin Problems\322.CoinChange.cs" />
+    <Compile Include="LeetCode\Coin Problems\518.CoinChangeII.cs" />
+    <Compile Include="LeetCode\Design\CompressionDecomression\394.StringDecompress.cs" />
+    <Compile Include="LeetCode\Design\DesignGooglePhotoLibrary.cs" />
+    <Compile Include="LeetCode\Design\705.DesignHashset.cs" />
+    <Compile Include="LeetCode\Design\706.DesignHashmap.cs" />
+    <Compile Include="LeetCode\Design\DesignHashtable.cs" />
+    <Compile Include="LeetCode\Design\DesignIEnumertaor.cs" />
+    <Compile Include="LeetCode\Design\707.DesignLinkedlist.cs" />
+    <Compile Include="LeetCode\Design\DesignParkingLotClass.cs" />
+    <Compile Include="LeetCode\Design\380.InsertDeleteGetRandom.cs" />
+    <Compile Include="LeetCode\Design\609.FindDuplicateFilesInSystem.cs" />
+    <Compile Include="LeetCode\Arrays\Important\HTree.cs" />
+    <Compile Include="LeetCode\Design\348.DesignTicTacToe.cs" />
+    <Compile Include="LeetCode\Design\Iterator\281.ZigZagIteratorClass.cs" />
+    <Compile Include="LeetCode\Design\Iterator\281.1ZigzagIteratorII.cs" />
+    <Compile Include="LeetCode\Design\Cache\460.LFUCache.cs" />
+    <Compile Include="LeetCode\Design\346.MovingAvergaeDataStream.cs" />
+    <Compile Include="LeetCode\Design\709.ImplementTwoLowerMethod.cs" />
+    <Compile Include="LeetCode\Games\24Game.cs" />
+    <Compile Include="LeetCode\Games\682.BaseballGame.cs" />
+    <Compile Include="LeetCode\Games\299.BullsCows.cs" />
+    <Compile Include="LeetCode\Games\390.EliminateGame.cs" />
+    <Compile Include="LeetCode\Games\Flip Game\293.FlipGame.cs" />
+    <Compile Include="LeetCode\Games\Flip Game\294.FlipGameII.cs" />
+    <Compile Include="LeetCode\LinkedList\876.MiddleOfLinkedList.cs" />
+    <Compile Include="LeetCode\LinkedList\817.FindComponentsInLinkedList.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\200.NoOfIIslandsClass.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\695.MaxAreaOfIsland.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\463.IslandPerimeter.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\733.FloodFillPaintBrush.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\221.MaximalSquares.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\490.PathInMazeAllDirection.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\PathInRatMaze.cs" />
+    <Compile Include="LeetCode\LinkedList\369.PlusOneLinkedList.cs" />
+    <Compile Include="LeetCode\LinkedList\InterleaveTwoLinkedList.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\542.01Matrix.cs" />
+    <Compile Include="LeetCode\Matrix\240.SearchA2DMatrixII.cs" />
+    <Compile Include="LeetCode\Matrix\CountNegativeNumberInSortedMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\KthSmallestElementInMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\766.ToeplitzMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\62.UniquePaths.cs" />
+    <Compile Include="LeetCode\Matrix\63.UniquePathsII.cs" />
+    <Compile Include="LeetCode\Matrix\867.TransposeMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\59.SpiralMatrixII.cs" />
+    <Compile Include="LeetCode\Matrix\ShiftMatrixByOneSpiralMatrix.cs" />
+    <Compile Include="LeetCode\Polish Notation\ConvertInfixToPostFix.cs" />
+    <Compile Include="LeetCode\Polish Notation\224.EvaluateInfixPolishNotation.cs" />
+    <Compile Include="LeetCode\Polish Notation\150.EvaluateReversePolishNotation.cs" />
+    <Compile Include="LeetCode\Arrays\String\3.LongestSubstringWithoutRepeatingCharacters.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\76.MinimumWindowSubstringClass.cs" />
+    <Compile Include="LeetCode\SlidingWindowTemplateStringQuestions\SlidingWindowTemplateClass.cs" />
+    <Compile Include="LeetCode\SlidingWindowTemplateStringQuestions\SubstringWithConcatenationOfAllWords.cs" />
+    <Compile Include="LeetCode\Sql\CountColumnValuesInTable.cs" />
+    <Compile Include="LeetCode\Arrays\String\720.LongestWordInDictionary.cs" />
+    <Compile Include="LeetCode\Anagrams\AnagramStringIsPalindrome.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\DivideStringInNEqualParts.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\EliminatePairs.cs" />
+    <Compile Include="LeetCode\Parantheses\MinimumReversalValidParenthesis.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\PrintInterleaveOfTwoStrings.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\PrintStringsContainingSecondStringChars.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\RemovebAndacFromString.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\RemoveCharFromOneStringToAnotherString.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\RemoveSpaces.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\ReverseStringInOrder.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\ReverseStringLeaveSpecialCharacters.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\RotateString.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\TransformOneStringToAnother.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\MaximumRepeatingCharInString.cs" />
+    <Compile Include="LeetCode\Design\StackQueues\SetOfStacksPlates.cs" />
+    <Compile Include="LeetCode\Arrays\String\Palindrome\125.ValidPalindrome.cs" />
+    <Compile Include="LeetCode\Arrays\String\14.LongestCommonPrefix.cs" />
+    <Compile Include="LeetCode\Arrays\String\159.LongestSubstringWithAtMostTwoDistinctCharacters.cs" />
+    <Compile Include="LeetCode\Arrays\String\205.IsomorphicStrings.cs" />
+    <Compile Include="LeetCode\Arrays\String\28.ImplementstrStr.cs" />
+    <Compile Include="LeetCode\Arrays\String\290.WordPattern.cs" />
+    <Compile Include="LeetCode\Arrays\String\Reverse\151.ReverseWordsInStringI.cs" />
+    <Compile Include="LeetCode\Arrays\String\Reverse\345.ReverseVowelsOfString.cs" />
+    <Compile Include="LeetCode\Arrays\String\383.RansomNote.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\387.FirstUniqueCharacterInString.cs" />
+    <Compile Include="LeetCode\Arrays\String\389.FindTheDifferenceClass.cs" />
+    <Compile Include="LeetCode\Arrays\String\43.MultiplyStrings.cs" />
+    <Compile Include="LeetCode\Arrays\String\434.NumberOfSegmentsString.cs" />
+    <Compile Include="LeetCode\Design\CompressionDecomression\443.StringCompression.cs" />
+    <Compile Include="LeetCode\Arrays\String\459.RepeatedSubstringPatternClass.cs" />
+    <Compile Include="LeetCode\Arrays\String\468.ValidateIPAddress.cs" />
+    <Compile Include="LeetCode\Arrays\String\Palindrome\5.LongestPalindromicSubString.cs" />
+    <Compile Include="LeetCode\Arrays\String\520.DetectCapital.cs" />
+    <Compile Include="LeetCode\Arrays\String\Reverse\541.ReverseStringII.cs" />
+    <Compile Include="LeetCode\Arrays\String\551.StudentAttendanceRecordClassI.cs" />
+    <Compile Include="LeetCode\Arrays\String\Reverse\557.ReverseWordsInStringIII.cs" />
+    <Compile Include="LeetCode\Arrays\String\58.LengthOfLastWord.cs" />
+    <Compile Include="LeetCode\Arrays\String\6.ZigZagStringConversion.cs" />
+    <Compile Include="LeetCode\Arrays\String\657.JudgeRouteCircleClass.cs" />
+    <Compile Include="LeetCode\Arrays\String\Palindrome\680.ValidPalindromeII.cs" />
+    <Compile Include="LeetCode\Arrays\String\686.RepeatedStringMatchClass.cs" />
+    <Compile Include="LeetCode\Arrays\String\71.SimplifyPath.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\8.StringToIntegerAtoi.cs" />
+    <Compile Include="LeetCode\Arrays\String\97.InterleavingString.cs" />
+    <Compile Include="LeetCode\Arrays\String\Palindrome\409.LongestPalindrome.cs" />
+    <Compile Include="LeetCode\Arrays\String\415.AddStrings.cs" />
+    <Compile Include="LeetCode\Arrays\String\RemoveComments.cs" />
+    <Compile Include="LeetCode\Arrays\String\Important\RemoveDuplicatesFromString.cs" />
+    <Compile Include="LeetCode\Arrays\String\ReturnKthMostOccurringWord.cs" />
+    <Compile Include="LeetCode\Arrays\String\ReverseWordsInString.cs" />
+    <Compile Include="LeetCode\Backtrack\131.PalindromePartitioning.cs" />
+    <Compile Include="LeetCode\Backtrack\39.CombinationSum.cs" />
+    <Compile Include="LeetCode\Backtrack\40.CombinationSumIIWithDuplicates.cs" />
+    <Compile Include="LeetCode\Backtrack\46.Permutations.cs" />
+    <Compile Include="LeetCode\Backtrack\47.PermutationsIIWithDuplicates.cs" />
+    <Compile Include="LeetCode\Backtrack\77.Combinations.cs" />
+    <Compile Include="LeetCode\Backtrack\78.Subsets.cs" />
+    <Compile Include="LeetCode\Backtrack\90.SubsetsIIWithDuplicatesNumberscs.cs" />
+    <Compile Include="LeetCode\Arrays\Best Time to Buy and Sale Stock\121.BestTimeToBuyAndSellStock.cs" />
+    <Compile Include="LeetCode\Arrays\Best Time to Buy and Sale Stock\122.BestTimeToBuyAndSellStockII.cs" />
+    <Compile Include="LeetCode\Arrays\Best Time to Buy and Sale Stock\123.BestTimeToBuyAndSellStockIII.cs" />
+    <Compile Include="LeetCode\Binary\191.NumberOfBinaryOnes.cs" />
+    <Compile Include="LeetCode\Binary\67.AddBinary.cs" />
+    <Compile Include="LeetCode\Parantheses\20.ValidParentheses.cs" />
+    <Compile Include="LeetCode\Parantheses\22.GenerateParentheses.cs" />
+    <Compile Include="LeetCode\Parantheses\32.LongestValidParenthesesClass.cs" />
+    <Compile Include="LeetCode\Parantheses\678.ValidParenthesisStringClass.cs" />
+    <Compile Include="LeetCode\Design\Cache\146.LRUCache.cs" />
+    <Compile Include="LeetCode\Design\StackQueues\225.ImplementStackUsingQueues.cs" />
+    <Compile Include="LeetCode\Design\StackQueues\232.ImplementQueueUsingStacks.cs" />
+    <Compile Include="LeetCode\ExcelColumn\168.ExcelSheetColumnTitle.cs" />
+    <Compile Include="LeetCode\ExcelColumn\171.ExcelSheetColumnNumber.cs" />
+    <Compile Include="LeetCode\Arrays\House Robber\198.HouseRobber.cs" />
+    <Compile Include="LeetCode\Arrays\House Robber\213.HouseRobberII.cs" />
+    <Compile Include="LeetCode\Arrays\House Robber\337.HouseRobberIII.cs" />
+    <Compile Include="LeetCode\IntegerToRomanWords\12.IntegerToRomanClass.cs" />
+    <Compile Include="LeetCode\IntegerToRomanWords\13.RomanToIntegerClass.cs" />
+    <Compile Include="LeetCode\IntegerToRomanWords\273.IntegerToEnglishWords.cs" />
+    <Compile Include="LeetCode\Arrays\Intervals\56.MergeIntervals.cs" />
+    <Compile Include="LeetCode\Arrays\Intervals\435.NonOverlappingIntervalsClass.cs" />
+    <Compile Include="LeetCode\Games\Jump Game\45.JumpGameII.cs" />
+    <Compile Include="LeetCode\Games\Jump Game\55.JumpGame.cs" />
+    <Compile Include="LeetCode\LinkedList\138.CopyListWithRandomPointer.cs" />
+    <Compile Include="LeetCode\LinkedList\141.LinkedListDetectCycle.cs" />
+    <Compile Include="LeetCode\LinkedList\142.LinkedListCycleII.cs" />
+    <Compile Include="LeetCode\LinkedList\143.ReorderList.cs" />
+    <Compile Include="LeetCode\LinkedList\160.IntersectionOfTwoLinkedLists.cs" />
+    <Compile Include="LeetCode\LinkedList\19.RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="LeetCode\LinkedList\2.AddTwoNumbersLinkedList.cs" />
+    <Compile Include="LeetCode\LinkedList\203.RemoveLinkedListElements.cs" />
+    <Compile Include="LeetCode\LinkedList\206.ReverseLinkedListClass.cs" />
+    <Compile Include="LeetCode\LinkedList\21.MergeTwoSortedLists.cs" />
+    <Compile Include="LeetCode\LinkedList\234.PalindromeLinkedListClass.cs" />
+    <Compile Include="LeetCode\LinkedList\237.DeleteNodeLinkedList.cs" />
+    <Compile Include="LeetCode\LinkedList\24.SwapNodesInPairs.cs" />
+    <Compile Include="LeetCode\LinkedList\25.ReverseNodesInK-Group.cs" />
+    <Compile Include="LeetCode\LinkedList\328.OddEvenLinkedList.cs" />
+    <Compile Include="LeetCode\LinkedList\445.AddTwoNumbersClassII.cs" />
+    <Compile Include="LeetCode\LinkedList\61.RotateList.cs" />
+    <Compile Include="LeetCode\LinkedList\83.RemoveDuplicatesfromSortedList.cs" />
+    <Compile Include="LeetCode\LinkedList\86.PartitionList.cs" />
+    <Compile Include="LeetCode\LinkedList\92.ReverseLinkedListII.cs" />
+    <Compile Include="LeetCode\LinkedList\82.RemoveDuplicatesFromSortedListII.cs" />
+    <Compile Include="LeetCode\LinkedList\ReverseDoublyLinkedList.cs" />
+    <Compile Include="LeetCode\Matrix\48.RotateImage.cs" />
+    <Compile Include="LeetCode\Matrix\54.SpiralMatrixcs.cs" />
+    <Compile Include="LeetCode\Matrix\64.MinimumPathSumMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\73.SetMatrixZeroesClass.cs" />
+    <Compile Include="LeetCode\Matrix\74.SearchA2DMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\LongestIncreasingPathInMatrix.cs" />
+    <Compile Include="LeetCode\Matrix\498.PrintMatrixDiaognalOrder.cs" />
+    <Compile Include="LeetCode\MergeAndSortIComparer.cs" />
+    <Compile Include="LeetCode\MergeKSortedLists.cs" />
+    <Compile Include="LeetCode\MicrosoftInterviewQuestionsList.cs" />
+    <Compile Include="LeetCode\My Calendar\MyCalenderI.cs" />
+    <Compile Include="LeetCode\Next Greater Elements\NextGreaterElement.cs" />
+    <Compile Include="LeetCode\Next Greater Elements\496.NextGreaterElementI.cs" />
+    <Compile Include="LeetCode\Arrays\PascalTriangle\118.PascalsTriangle.cs" />
+    <Compile Include="LeetCode\Arrays\PascalTriangle\119.PascalTriangleII.cs" />
+    <Compile Include="LeetCode\PowerOf\231.PoweOfTwoClass.cs" />
+    <Compile Include="LeetCode\PowerOf\326.PowerOfThreeClass.cs" />
+    <Compile Include="LeetCode\PowerOf\342.PowerFour.cs" />
+    <Compile Include="LeetCode\PowerOf\50.PowOfXToN.cs" />
+    <Compile Include="LeetCode\QuestionsList.cs" />
+    <Compile Include="LeetCode\Sql\175.CombineTwoSQLTables.cs" />
+    <Compile Include="LeetCode\Sql\176.SecondHighestSalaryQuery.cs" />
+    <Compile Include="LeetCode\Sql\181.EmployeesEarningMoreThanTheirManagersSQL.cs" />
+    <Compile Include="LeetCode\Sql\182.DuplicateEmails.cs" />
+    <Compile Include="LeetCode\Sql\183.CustomersWhoNeverOrderSQL.cs" />
+    <Compile Include="LeetCode\Sql\196.DeleteDuplicateEmailsSQLQuery.cs" />
+    <Compile Include="LeetCode\Sql\197.RisingTemperatureSqlQuery.cs" />
+    <Compile Include="LeetCode\Arrays\String\139.WordBreak.cs" />
+    <Compile Include="LeetCode\Arrays\String\Shortest Distance Between Words\821.ShortestDistanceToCharacterInString.cs" />
+    <Compile Include="LeetCode\Arrays\String\Reverse\186.ReverseWordsInStringII.cs" />
+    <Compile Include="LeetCode\Matrix\Island Problems\79.WordSearch.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\392.IsSubsequence.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\491.IncreasingSubsequence.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\LongestCommonSubSequenceClass.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\674.LongestContinousIncreasingSubSequence.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\594.LongestHarmoniousSubSequenceClass.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\521.LongestUnCommonSubSequence.cs" />
+    <Compile Include="LeetCode\Arrays\Trapping Raint Water Problem\11.ContainerWithMostWater.cs" />
+    <Compile Include="LeetCode\Arrays\Trapping Raint Water Problem\42.TrappingRainWaterClass.cs" />
+    <Compile Include="LeetCode\Arrays\SubSequence\792.NoOfMatchingSequence.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\700.SearchInBST.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\285.InOrderSuccessorBST.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\285.1InOrderPredecessorBST.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\96.CountBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\450.DeleteNodeBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\SmallestNumberBSTGreaterThanN.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\144.BinaryTreePreorderTraversal.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\145.BinaryTreePostorderTraversal.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\654.MaxBinaryTreeClass.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\543.DiameterOfBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\671.SecondMinimumNodeInBT.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Validate Binary Search Tree\CheckIsBSTSumTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\ImplementBinaryTreeAndBSTClass.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\449..SerializeAndDeserializeBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\ConvertBinarySearchTreeToSumTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\236.LowestCommonAncestorBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\116.ConnectsNodesAtSameLevel.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\617.MergeTwoBinaryTrees.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\117.ConnectNodesAtSameLevelWithoutExtraSpace.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\429.N-aryLevelOrderTraversal.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\TopViewBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\BottomViewBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\513.1.FindBottomTreeRight.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\545.PrintBoundaryBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\297.SerializeAndDeserializeBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\314.VerticalLevelOrderTraversal.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Sum\129.SumRootToLeafNumber.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\100.SameTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\101.SymmetricTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\102.BinaryTreeLevelOrderTraversalI.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\103.BinaryTreeZigZagLevelOrderTraversal.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\104.MaximumDepthOfBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\105.ConstructBinaryTreeFromInOrderPreOrder.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\106.ConstructBinaryTreeFromInOrderPostOrder.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\107.BinaryTreeLevelOrderTraversalII.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\ConvertBST\108.ConvertSortedArraytoBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\ConvertBST\109.ConvertSortedListToBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\110.BalancedBinaryTreeClass.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\111.MinimumDepthOfBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\ConvertBST\538.ConvertBSTToGT.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Sum\112.PathSum.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\114.FlattenBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\199.1BinaryTreeLeftSideView.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\199.BinaryTreeRightSideView.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\226.InvertBinaryTreeClass.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Important\230.KthSmallestElementBST.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\235.LowestCommonAncestorOfBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Important\257.BinaryTreePathsClass.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\404.SumOfLeftLeaves.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\513.FindBottomTreeLeft.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\515.FindLargestInEachRow.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\637.AverageOfLevelsInBinaryTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Basics\94.BinaryTreeInorderTraversal.cs" />
+    <Compile Include="LeetCode\Tree\Binary Search Tree\Validate Binary Search Tree\98.ValidateBinarySearchTree.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Sum\113.PathSumII.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\Side View\404.1.SumOfRightLeaves.cs" />
+    <Compile Include="LeetCode\Trick\172.FactorialTrailingZeroesClass.cs" />
+    <Compile Include="LeetCode\Trick\193.ValidPhoneNumbersProgram.cs" />
+    <Compile Include="LeetCode\Trick\195.TenthLine.cs" />
+    <Compile Include="LeetCode\Arrays\Important\202.HappyNumber.cs" />
+    <Compile Include="LeetCode\Arrays\Important\204.CountPrimes.cs" />
+    <Compile Include="LeetCode\Trick\258.AddDigits.cs" />
+    <Compile Include="LeetCode\Arrays\Ugly Number\263.UglyNumber.cs" />
+    <Compile Include="LeetCode\Arrays\Missing Number\268.MissingNumber.cs" />
+    <Compile Include="LeetCode\Trick\278.FirstBadVersionClass.cs" />
+    <Compile Include="LeetCode\Trick\292.NimGame.cs" />
+    <Compile Include="LeetCode\Trick\367.ValidPerfectSquareClass.cs" />
+    <Compile Include="LeetCode\Games\374.GuessNumberHigherLower.cs" />
+    <Compile Include="LeetCode\Arrays\Important\38.CountAndSayClass.cs" />
+    <Compile Include="LeetCode\Arrays\Important\7.ReverseInteger.cs" />
+    <Compile Include="LeetCode\Trick\9.PalindromeNumber.cs" />
+    <Compile Include="LeetCode\Trick\91.DecodeWays.cs" />
+    <Compile Include="LeetCode\Design\KingAndQueenOnChessboard.cs" />
+    <Compile Include="LeetCode\Trick\412.FizzBuzz.cs" />
+    <Compile Include="LeetCode\Trick\65.ValidNumber.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\1.TwoSum.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\15.3Sum.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\16.3SumClosest.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\167.TwoSumIInputArraySorted.cs" />
+    <Compile Include="LeetCode\Arrays\TwoSumThreeSum\170.TwoSumIIIDataStructureDesign.cs" />
+    <Compile Include="LeetCode\Arrays\String\127.WordLadderI.cs" />
+    <Compile Include="LeetCode\Word Ladder\WordLadderII.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\108.ConvertSortedArraytoBinarySearchTree.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\110.BalancedBinaryTreeClass.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\116.ConnectsNodesAtSameLevel.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\117.ConnectNodesAtSameLevelWithoutExtraSpace.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\141.LinkedListDetectCycle.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\142.LinkedListCycleII.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\155.MinStack.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\19.RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\2.AddTwoNumbersLinkedList.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\232.ImplementQueueUsingStacks.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\234.PalindromeLinkedListClass.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\236.LowestCommonAncestorBinaryTree.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\237.DeleteNodeLinkedList.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\242.ValidAnagram.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\285.InOrderSuccessorBST.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\344.ReverseString.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\443.StringCompression.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\48.RotateImage.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\73.SetMatrixZeroesClass.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\83.RemoveDuplicatesfromSortedList.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\86.PartitionList.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\98.ValidateBinarySearchTree.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\ArithmaticOperationsUsingAddSign.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\BinaryTreeCreateLinkedListDepthD.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\ReplaceSpaceWithPercentage20String.cs" />
+    <Compile Include="LeetCode\Tree\Binary Tree\Level order Tree Traversal BFS\RouteBetweenTwoNodesInDirectedGraph.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\RouteBetweenTwoNodesInDirectedGraph.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\SetOfStacksPlates.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\StringRotation.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\TowerOfHanoiDiskArrangements.cs" />
+    <Compile Include="LeetCode\_CrakingTheCodeInterview\UniqueCharInString.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue\Queue.cs" />
+    <Compile Include="RestApiDosDont.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\QuickSorting.cs" />
+    <Compile Include="Stack\Stack.cs" />
+    <Compile Include="Tree\BinarySearchTreeClass.cs" />
+    <Compile Include="Utility\UtilityHelper.cs" />
+    <Compile Include="WebApiDesignGuidelines.cs" />
+    <Compile Include="WebApiInterviewQuestions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="file.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
